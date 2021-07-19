@@ -1,0 +1,40 @@
+Update
+======
+
+Website
+--------
+
+Research; People; Publications
+- ActiveStatPhys @ Uni.lu
+- short CV
+- description of group members
+
+------
+
+https://jbae.eng.ucsd.edu/
+http://vaikuntanathan-group.uchicago.edu/
+http://fcmack.web.rice.edu/
+https://statmech.stanford.edu/
+https://gingrich.chem.northwestern.edu/
+https://www.fakhrilab.com/
+
+_________________________
+
+Website: use git (efodorphysics.github.io)
+
+pull data   : git pull
+push data   : git add publications.hmtl & git commit -m "Push data" & git push
+							git add --all && git commit -m "Update" && git push -u origin master
+clone folder: git clone https://github.com/efodorphysics/Folder.git
+
+Error message
+-------------
+-/ 'does not appear to be a git repository fatal: could not read from remote repository'
+   do 'git remote add origin https://github.com/efodorphysics/efodorphysics.github.io'
+
+-/ 'fatal: Not a git repository (or any of the parent directories): .git'
+   do 'git init'
+
+-/ 'Les mises à jour ont été rejetées car la branche distante contient du travail '
+   do 'git push -f origin master'
+
